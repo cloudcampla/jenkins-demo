@@ -6,6 +6,7 @@ node {
 
         sh 'echo "Hello World!"'
         sh 'ls -la'
+        sh 'npm install'
     }
 }
 
